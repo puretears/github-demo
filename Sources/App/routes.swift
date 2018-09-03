@@ -11,6 +11,9 @@ public func routes(_ router: Router) throws {
         return "About us."
     }
 
+    router.get("pr") { req in
+        return "PR from puretears."
+    }
 
     // Example of configuring a controller
     let todoController = TodoController()
